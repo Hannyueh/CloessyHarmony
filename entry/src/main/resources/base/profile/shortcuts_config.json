@@ -1,0 +1,22 @@
+﻿{
+  "shortcuts": [
+    {
+      "shortcutId": "cloessy_unlock_lock",
+      "label": "$string:shortcut_unlock",
+      "icon": "$media:shortcut_lock",
+      "visible": true,
+      "wants": [
+        {
+          "bundleName": "com.yunmei.rewrite",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "action": "unlock",
+            "source": "smartlife",
+            "sceneKey": "cloessy-smartlife"
+          }
+        }
+      ]
+    }
+  ]
+}

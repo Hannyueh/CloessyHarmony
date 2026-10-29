@@ -1,0 +1,6 @@
+{
+  "modelVersion": "6.0.2",
+  "description": "Yunmei HarmonyOS client: account login and BLE dormitory door unlocking.",
+  "dependencies": {},
+  "devDependencies": {}
+}

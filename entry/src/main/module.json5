@@ -1,0 +1,99 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "launchType": "singleton",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ],
+        "metadata": [
+          {
+            "name": "ohos.ability.shortcuts",
+            "resource": "$profile:shortcuts_config"
+          }
+        ]
+      },
+      {
+        "name": "CardUnlockAbility",
+        "srcEntry": "./ets/entryability/CardUnlockAbility.ets",
+        "exported": true,
+        "launchType": "singleton",
+        "startWindowIcon": "$media:ic_transparent",
+        "startWindowBackground": "$color:transparent_window"
+      },
+      {
+        "name": "SmartLifeAbility",
+        "srcEntry": "./ets/entryability/SmartLifeAbility.ets",
+        "exported": true,
+        "launchType": "singleton",
+        "startWindowIcon": "$media:ic_transparent",
+        "startWindowBackground": "$color:transparent_window"
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "UnlockCardAbility",
+        "srcEntry": "./ets/entryformability/UnlockCardAbility.ets",
+        "type": "form",
+        "exported": true,
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      },
+      {
+        "name": "CloessyAppService",
+        "srcEntry": "./ets/entryability/CloessyAppService.ets",
+        "type": "appService",
+        "exported": true
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "reason": "$string:permission_bluetooth_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility",
+            "CardUnlockAbility",
+            "SmartLifeAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

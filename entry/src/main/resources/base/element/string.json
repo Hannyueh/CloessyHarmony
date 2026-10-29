@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Cloessy"
+    },
+    {
+      "name": "module_desc",
+      "value": "Cloessy 寝室门锁客户端"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "登录 Cloessy 账号并连接寝室智能门锁开门"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Cloessy"
+    },
+    {
+      "name": "permission_bluetooth_reason",
+      "value": "用于搜索并连接寝室智能门锁，发送开锁指令"
+    },
+    {
+      "name": "shortcut_unlock",
+      "value": "Cloessy 开门"
+    },
+    {
+      "name": "form_name_small",
+      "value": "Cloessy 开门"
+    },
+    {
+      "name": "form_name_wide",
+      "value": "Cloessy 开门 · 宽版"
+    },
+    {
+      "name": "form_name_capsule",
+      "value": "Cloessy 开门 · 胶囊"
+    },
+    {
+      "name": "form_desc_small",
+      "value": "纯色几何开门卡片"
+    },
+    {
+      "name": "form_desc_wide",
+      "value": "纯色几何开门卡片 · 宽版"
+    },
+    {
+      "name": "form_desc_capsule",
+      "value": "2:1 胶囊开门卡片"
+    }
+  ]
+}

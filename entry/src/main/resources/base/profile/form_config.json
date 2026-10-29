@@ -1,0 +1,71 @@
+{
+  "forms": [
+    {
+      "name": "unlock_card_2x2",
+      "displayName": "$string:form_name_small",
+      "description": "$string:form_desc_small",
+      "src": "./ets/widgets/UnlockCardSmall.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "light",
+      "isDynamic": true,
+      "isDefault": true,
+      "updateEnabled": false,
+      "updateDuration": 0,
+      "defaultDimension": "2*2",
+      "supportDimensions": [
+        "2*2"
+      ],
+      "transparencyEnabled": true,
+      "renderingMode": "fullColor"
+    },
+    {
+      "name": "unlock_card_2x4",
+      "displayName": "$string:form_name_wide",
+      "description": "$string:form_desc_wide",
+      "src": "./ets/widgets/UnlockCardWide.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "light",
+      "isDynamic": true,
+      "isDefault": false,
+      "updateEnabled": false,
+      "updateDuration": 0,
+      "defaultDimension": "2*4",
+      "supportDimensions": [
+        "2*4"
+      ],
+      "transparencyEnabled": true,
+      "renderingMode": "fullColor"
+    },
+    {
+      "name": "unlock_card_1x2",
+      "displayName": "$string:form_name_capsule",
+      "description": "$string:form_desc_capsule",
+      "src": "./ets/widgets/UnlockCardCapsule.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "light",
+      "isDynamic": true,
+      "isDefault": false,
+      "updateEnabled": false,
+      "updateDuration": 0,
+      "defaultDimension": "1*2",
+      "supportDimensions": [
+        "1*2"
+      ],
+      "transparencyEnabled": true,
+      "renderingMode": "fullColor"
+    }
+  ]
+}
+

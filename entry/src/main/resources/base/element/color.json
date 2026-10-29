@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#171D29"
+    },
+    {
+      "name": "transparent_window",
+      "value": "#00000000"
+    }
+  ]
+}

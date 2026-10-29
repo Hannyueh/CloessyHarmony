@@ -1,0 +1,6 @@
+﻿build/
+.hvigor/
+oh_modules/
+.idea/
+*.log
+dist/
