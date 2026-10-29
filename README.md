@@ -72,7 +72,7 @@ entry/src/main/ets/
 
 ## 作者联系方式
 
-| 角色 | 作者 | 邮箱 |
-|---|---|---|
-| App 开发 | 寒悦Hannyueh | Hannyueh@163.com |
-| 逆向工程 | PhoenixTree | phoenixtree_zh@163.com |
+| 角色 | 作者 | 邮箱 | 个人主页 |
+|---|---|---|---|
+| App 开发 | 寒悦Hannyueh | Hannyueh@163.com | https://github.com/Hannyueh |
+| 逆向工程 | PhoenixTree | phoenixtree_zh@163.com | https://github.com/PhoenixTreeZh |
