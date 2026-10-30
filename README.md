@@ -71,6 +71,10 @@ entry/src/main/ets/
 
 Cloessy 不收集与开门无关的个人信息，账号与凭据仅加密保存在本机。完整说明见 [docs/privacy.html](docs/privacy.html)。
 
+## 其他客户端版本
+
+本应用的Android分支版本参见由PhoenixTree维护的https://github.com/PhoenixTreeZh/yunmei-lite，本项目基于该项目开发和维护，详细技术原理可以参见该项目的说明，本项目在开锁进程的优化方式和该项目略有差异，但对于门锁的兼容性等问题与该项目一致。
+
 ## 作者联系方式
 
 | 角色 | 作者 | 邮箱 | 个人主页 |
