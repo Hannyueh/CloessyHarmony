@@ -81,3 +81,14 @@ Cloessy 不收集与开门无关的个人信息，账号与凭据仅加密保存
 |---|---|---|---|
 | App 开发 | 寒悦Hannyueh | Hannyueh@163.com | https://github.com/Hannyueh |
 | 逆向工程 | PhoenixTree | phoenixtree_zh@163.com | https://github.com/PhoenixTreeZh |
+
+## 应用截图
+
+以下是 Cloessy 在 HarmonyOS 上的主要界面（深色 / 浅色主题）：
+
+| 开门进度 | 上滑开门 | 开锁成功 | 设置与说明 |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/screenshot-1-unlock-progress.png" width="200" alt="开门进度：正在准备开门"> | <img src="docs/screenshots/screenshot-2-swipe-to-open.png" width="200" alt="上滑屏幕开门"> | <img src="docs/screenshots/screenshot-3-unlock-success.png" width="200" alt="开锁成功"> | <img src="docs/screenshots/screenshot-4-settings.png" width="200" alt="设置与说明"> |
+
+> 截图顺序：准备开门 → 上滑开门 → 开锁成功 → 设置与说明。
+
